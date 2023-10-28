@@ -16,7 +16,6 @@ const Game = ({username}) => {
             break;
         default:
             gameToRender = <div>Game not available</div>
-            break;
     }
   return (
     <div>

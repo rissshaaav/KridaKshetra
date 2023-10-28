@@ -1,0 +1,20 @@
+.homeHeader{
+    height: 10%;
+    width: 100%;
+    /* padding: 5px; */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.homeHeader img{
+    max-height: 4rem;
+    margin-right: 10px;
+}
+.homeHeader p{
+    font-size: larger;
+}
+main .gameList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

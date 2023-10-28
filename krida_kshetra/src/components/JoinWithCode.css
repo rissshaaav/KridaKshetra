@@ -1,0 +1,21 @@
+.joinWithCode{
+    background-color: #f0d43a;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.joinWithCode p{
+    margin-bottom: 10px;
+}
+.joinWithCode input{
+    border: solid thin;
+    background-color: #f0d43a;
+    height: 30px;
+    min-width: 70%;
+    text-align: center;
+}
+.joinWithCode button{
+    margin-left: 20px;
+    padding: 0 10px;
+    height: 30px;
+}
