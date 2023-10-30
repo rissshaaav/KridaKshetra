@@ -18,10 +18,10 @@ const Home = ({username}) => {
         <JoinWithCode/>
         <p>Select games from below and share link to play with your friends</p>
         <div className='gameList'>
-          <GameThumbnail thumbnailImage={tictactoeThumbnail} color='#45EBA5' gameName='game1'/>
-          <GameThumbnail thumbnailImage={scribblesThumbnail} color='white'  gameName='game2'/>
-          <GameThumbnail thumbnailImage={bingoThumbnail} color='#45EBA5'/>
-          <GameThumbnail thumbnailImage={tictactoeThumbnail} color='#45EBA5'/>
+          <GameThumbnail thumbnailImage={tictactoeThumbnail} gameName='game1'/>
+          <GameThumbnail thumbnailImage={scribblesThumbnail} gameName='game2'/>
+          <GameThumbnail thumbnailImage={bingoThumbnail} />
+          <GameThumbnail thumbnailImage={tictactoeThumbnail} />
         </div>
       </main>
     </>
